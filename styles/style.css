@@ -61,5 +61,32 @@ button{
   padding:10px 20px;
   background-color:red;
   color: white;
-   border: none;  
+  border: none;  
 }
+/* finish banner section */
+/* start about section area */
+.about-title{
+  text-align: center;
+  padding: 20px;
+}
+.about-container{
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center ; */
+  padding: 10px;
+}
+.about-photo img{
+  width: 300px;
+}
+.about-info h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.about-info p{
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: black;
+}
+/* finish about section area */
