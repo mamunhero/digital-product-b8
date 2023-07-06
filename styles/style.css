@@ -90,3 +90,37 @@ button{
   color: black;
 }
 /* finish about section area */
+/* start services container area */
+.service{
+  background-image: url(/images/banner/background.png), linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.service-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.box{
+  width: 230px;
+  height: 280px;
+  box-shadow: 4px 4px 15px gray ;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+.box img{
+  width: 70px;
+}
+.box h2{
+  padding: 10px;
+}
+.box p{
+  padding: 5px;
+}
+.box button{
+  background-color: gray;
+  margin-bottom: 10px;
+}
