@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* this is a nav section area start */
 .menu-container{
@@ -101,10 +102,11 @@ button{
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  height: 70vh;
 }
 .box{
   width: 230px;
-  height: 280px;
+  height: 350px;
   box-shadow: 4px 4px 15px gray ;
   background-color: black;
   text-align: center;
@@ -123,12 +125,13 @@ button{
 .box button{
   background-color: gray;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 /* finish service area */
 /* start footer area */
 footer{
   width: 100%;
-  /* height: 70vh; */
+  height: 70vh;
   background-image: url(/images/banner/background.png), linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
   background-repeat: no-repeat;
   color: white;
@@ -148,4 +151,10 @@ footer{
   display: block;
   font-size: 20px;
   font-family: bold;
+}
+.footer-paragraph{
+  text-align: center;
+  text-transform: uppercase;
+  /* margin-top: 20px; */
+  /* padding-bottom: 20px; */
 }
